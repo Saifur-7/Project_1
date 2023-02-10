@@ -1,0 +1,417 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/* global code */
+.title{
+	width: 100%;
+	padding: 80px 0px 0px;
+}
+.title h1{
+	font-size: 80px;
+    line-height: 1.3em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.title p{
+	font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.title .btn {
+	display: inline-block;
+    margin: 40px 0px 0px;
+    padding: 10px 60px;
+    background: #e8631c;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    border: #e8631c;
+}
+.title .btn:hover{
+	background: transparent;
+	border: 1px solid #e8631c;
+}
+.title .btn:focus{
+	background: transparent;
+	border: 1px solid #e8631c;
+}
+/* global code ends */
+
+
+.header{
+	width: 100%;
+	background: #303030;
+}
+
+.header .navbar .navbar-nav .nav-item{
+	width: 100%;
+	margin: 0px 10px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+	font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.7em;
+    text-transform: uppercase;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #e8631c;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+	color: #e8631c;
+}
+.header .navbar .btn{
+	color: #fff;
+    border: 1px solid #fff;
+}
+.header .navbar .btn:hover{
+	background: #e8631c;
+	color: #fff;
+    border: 1px solid #e8631c;
+}
+.header .navbar .btn:focus{
+	background: #e8631c;
+	color: #fff;
+    border: 1px solid #e8631c;
+}
+
+
+/* intro css starts here */
+.intro{
+	width: 100%;
+	padding: 340px 80px 80px;
+	background: url("../images/Image.png") center top no-repeat;
+	background-size: cover;
+}
+.intro .title .btn {
+	display: inline-block;
+    margin: 40px 0px 0px;
+    padding: 10px 60px;
+    background: #e8631c;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    border:1px solid #e8631c;
+}
+.intro .title .btn:hover{
+	background: transparent;
+	border: 1px solid #e8631c;
+}
+.intro .title .btn:focus{
+	background: transparent;
+	border: 1px solid #e8631c;
+}
+/* intro css ends here */
+
+
+/* tour css starts here */
+.tour{
+	width: 100%;
+	padding: 0px 0px 60px;
+	background: url("../images/Group.png") center top no-repeat;
+	background-size: cover;
+}
+.tour .title{
+	text-align: center;
+}
+.tour .title h1{
+	text-transform: uppercase;
+	margin: 0px 0px 40px;
+}
+.tour .card{
+	width: 100%;
+	margin: 40px 0px;
+	border: 0px;
+}
+.tour .card .inner-card{
+	width: 100%;
+	text-align: center;
+	background: #303030;
+}
+.tour .card .inner-card h4{
+	padding: 40px 0px 10px;
+	font-size: 40px;
+    line-height: 1.3em;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.tour .card .inner-card p{
+	padding: 0px 0px 20px;
+	font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+/* tour css ends here */
+
+
+/*pricing css starts here*/
+.pricing{
+	width: 100%;
+	background: url("../images/pricing.png") center top no-repeat;
+	background-size: cover;
+	padding: 0px 0px 60px;
+}
+.pricing .title{
+	width: 100%;
+	text-align: center;
+}
+.pricing .title h1{
+	margin: 0px 0px 40px;
+	text-transform: uppercase;
+}
+.pricing .title p{
+	margin: 0px 0px 60px;
+}
+
+.pricing .row>* {
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
+}
+.pricing .card{
+	width: 100%;
+	background: #e8631c;
+	border: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 25px 25px 25px;
+	margin: 10px 0px;
+}
+.pricing .card .icons {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    left: 38%;
+    margin: 45px 0px;
+}
+.pricing .card h4{
+	font-size: 36px;
+    line-height: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0px 0px 20px;
+}
+.pricing .card p{
+	font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+.pricing .card .btn{
+	display: inline-block;
+    padding: 10px;
+    background: #303030;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #303030;
+}
+.pricing .card .btn:hover{
+	background: #fff;
+	color: #303030;
+	border: 2px solid #303030;
+	
+}
+.pricing .card .btn:focus{
+	background: #fff;
+	color: #303030;
+	border: 2px solid #303030;
+}
+/*pricing css ends here*/
+
+.amazing{
+	width: 100%;
+	padding: 0px 0px 0px;
+}
+.amazing .container{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+.amazing .container .row>* {
+    padding-right: calc(var(--bs-gutter-x) * 0);
+    padding-left: calc(var(--bs-gutter-x) * 0);
+}
+.amazing .container .amz-dance{
+
+}
+.amazing .container .amz-dance img{
+
+}
+.amazing .title{
+	width: 100%;
+	background: url("../images/amazingtxt.png.png") center top no-repeat;
+	background-size: cover;
+}
+
+
+/* statistics css starts here */
+.statistics{
+	width: 100%;
+	padding: 80px 0px;
+	background: #303030;
+}
+.statistics .title{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+}
+.statistics .title h1{
+	font-size: 60px;
+	font-weight: 900;
+    text-transform: uppercase;
+}
+.statistics .title p{
+	margin: 40px 0px 0px;
+    font-size: 28px;
+    font-weight: 200;
+}
+.statistics .numbers{
+	width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0px;
+    margin: 10px 0px;
+}
+.statistics .numbers h1{
+	font-size: 48px;
+    font-weight: 800;
+}
+.statistics .numbers h4{
+	font-size: 32px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+/* statistics css ends here */
+
+
+/* hcard css starts here */
+.hcard{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.hcard .row {
+    --bs-gutter-x: 0rem;
+}
+.hcard .card {
+    --bs-card-border-width: 0px; 
+    --bs-card-border-radius: 0rem;
+}
+.hcard .card .card-img-overlay{
+    position: absolute;
+    top: 34%;
+    right: 18%;
+    bottom: 20%;
+    left: 18%;
+}
+.hcard .card .card-img-overlay p{
+    font-size: 38px;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px 0px 40px;
+    text-align: center;
+}
+.hcard .card .card-img-overlay h1{
+	font-size: 60px;
+	line-height: 1.7em;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0px 0px;
+}
+/* card css ends here */
+
+
+/* subscribe css starts here */
+.subscribe{
+	width: 100%;
+	padding: 40px 40px;
+	background: url("../images/subscribe.png") center top no-repeat;
+	background-size: cover;
+}
+.subscribe .inner-sub{
+	width: 100%;
+	padding: 40px 40px;
+}
+.subscribe .inner-sub h1{
+	font-size: 60px;
+	line-height: 1.7em;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0px 30px;
+}
+.subscribe .inner-sub p{
+	font-size: 32px;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px 0px 0px;
+    padding: 0px 60px;
+    text-align: center;
+}
+.subscribe .sform{
+	width: 100%;
+	padding: 40px 40px;
+}
+.subscribe .sform .form-control{
+	display: inline-block;
+	width: 100% !important;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #7f7f7f;
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    margin: 0px 0px 40px;
+}
+.subscribe .sform .btn{
+	font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0px;
+    background: #303030;
+    border: 1px solid #303030;
+    position: absolute;
+    right: 10%;
+}
+
+/* subscribe css ends here */
+
+/* footer starts here */
+/* footer ends here */
